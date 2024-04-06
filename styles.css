@@ -1,0 +1,77 @@
+
+.icon {
+    max-width: 100px; /* Adjust the width of the icon */
+    max-height: 100px; /* Adjust the height of the icon */
+    background-image: url('Images/BackgroundImage_.png'); /* URL of the icon */
+    background-size: cover;
+    margin-right: 10px; /* Adjust the spacing between the icon and title */
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+div.wrap {
+    word-wrap: break-word;
+    }
+
+.card {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    background-color: #ffffff;
+    display: inline-block;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    transition: transform 0.3s;
+}
+
+/* Card header */
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Card body */
+.card-body {
+    
+    float: left;
+    max-width: 254px;
+    justify-content: space-around;
+}
+
+/* Image styling */
+.card-img {
+    max-width: 219px;
+    height: 150px;
+    
+}
+.card-container {
+display: inline-block; 
+justify-content: space-around;
+flex-direction: row; 
+
+max-width: 890px;
+max-height: 396px;
+padding-left: 170px;
+
+}
+.card-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Scale the card by 10% on hover */
+  }
+.content p {
+    display: none;
+}
+
+.content p:target {
+    display: block;
+    background-color: yellow;
+}

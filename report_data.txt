@@ -1,0 +1,25 @@
+
+<div id="Energy" class="content">
+    <h3>Energy Usage:</h3>
+    <p><ul>
+    <li>Energy usage refers to the consumption of energy resources for various activities, including electricity consumption in homes, offices, and industries, as well as fuel consumption in transportation and manufacturing processes.</li>
+    <li> The burning of fossil fuels, such as coal, oil, and natural gas, for energy production releases greenhouse gases, such as carbon dioxide (CO2), contributing to climate change and global warming.</li>
+    <li>The amount of energy consumed to power various activities including transportation, heating, and lighting is referred to as energy consumption.</li>
+    <li> The amount of greenhouse gas emissions, mainly carbon dioxide, that are produced by these activities is known as their “carbon footprint.”</li>
+    </ul></p>
+</div>
+<div id="Waste" class="content">
+    <h3>Waste:</h3>
+    <p>Carbon dioxide is released at a number of points in the waste collection process. While waste removal is the primary concern of waste emanations generally, there are other outflow contemplations in the waste cycle. 
+    <ul><li>Waste can refer to any material that is discarded after use and no longer serves its original purpose. Waste can be categorized into various types, including municipal solid waste (household trash), industrial waste, and hazardous waste.</li><li> Improper waste management practices, such as landfill disposal and incineration, release greenhouse gases, such as methane (CH4), a potent contributor to climate change, and other pollutants into the atmosphere, soil, and water bodies.</li>
+    <li>One source of emissions is the carbon that is used to create or grow products in the first place. If those products are only used once, or the food is never eaten, then the carbon is emitted needlessly. That’s why it’s important to reduce waste in the first place and only buy and use what you need.</li></ul></p>
+</div>
+<div id="Travel" class="content">
+    <h3>Business Travel:</h3>
+    <p>The most fundamental part of the travel industry being planes, cars, trains, boats, and even hot air balloons allow us to explore destinations all around the world. 
+    Nonetheless, the entirety of our traveling and traveling accompanies a robust carbon footprint.
+    <ul><li>
+    Business travel includes the transportation of representatives for business related purposes, including gatherings, meetings, client visits, and driving to and from work environments.</li>
+    <li>The ignition of petroleum derivatives for transportation, especially in air travel and street transportation, discharges carbon dioxide and different poisons, adding to air contamination, gridlock, and environmental change.</li>
+    <li>In recent years, the number of people traveling globally soar as airfare turned out to be more reasonable. Therefore, becomes globally responsble for huge part of carbon emissions </li></p>
+</div>
