@@ -3,21 +3,19 @@ import webbrowser
 import matplotlib.pyplot as plt
 import generatePDF
 
-new = 2 # open in a new tab, if possible
+
 def generate_html_report(activities, total_carbon,total_carbonList):
     # Generate the Grapgh for the activities and save it in .png format
     # ***creating Grapgh 1 for Energy used**** #
     labels1=[] # Names of the activites
     valSize1=[] #size of the proportion on the graph
     labels1=['Jan','Feb','March','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec']
-    # for value in total_carbonList:
-    #     valSize1.append(value)
+    
     valSize1.extend([5572.416,3262.112,6798.428])
     valSize1.append(total_carbonList[0])
     valSize1.extend([0,0,0,0,0,0,0,0])
-    #colors = ['#558e21', '#9BCF53', '#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7']
     # Create a pie chart
-    plt.figure(figsize=(9,4),dpi=100)  # Set the size of the figure (optional)
+    plt.figure(figsize=(9,5),dpi=100)  # Set the size of the figure (optional)
     for i in range(len(labels1)):
         if valSize1[i]>0:
             plt.text(i, valSize1[i] + 1, str(valSize1[i]), ha='center')
@@ -34,14 +32,13 @@ def generate_html_report(activities, total_carbon,total_carbonList):
     labels2=[] # Names of the activites
     valSize2=[] #size of the proportion on the graph
     labels2=['Jan','Feb','March','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec']
-    # for value in total_carbonList:
-    #     valSize2.append(value)
+   
     valSize2.extend([16738.2,18114.66,11549.428])
     valSize2.append(total_carbonList[1])
     valSize2.extend([0,0,0,0,0,0,0,0])
-    #colors = ['#558e21', '#9BCF53', '#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7']
+    
     # Create a pie chart
-    plt.figure(figsize=(9,4),dpi=100)  # Set the size of the figure (optional)
+    plt.figure(figsize=(9,5),dpi=100)  # Set the size of the figure (optional)
     for i in range(len(labels2)):
         if valSize2[i]>0:
             plt.text(i, valSize2[i] + 1, str(valSize2[i]), ha='center')
@@ -63,9 +60,9 @@ def generate_html_report(activities, total_carbon,total_carbonList):
     valSize3.extend([320.23,168.5,421.14])
     valSize3.append(total_carbonList[2])
     valSize3.extend([0,0,0,0,0,0,0,0])
-    #colors = ['#558e21', '#9BCF53', '#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7','#5665b7']
-    # Create a pie chart
-    plt.figure(figsize=(9,4),dpi=100)  # Set the size of the figure (optional)
+   
+       # Create a pie chart
+    plt.figure(figsize=(9,5),dpi=100)  # Set the size of the figure (optional)
     for i in range(len(labels3)):
         if valSize3[i]>0:
             plt.text(i, valSize3[i] + 1, str(valSize3[i]), ha='center')
@@ -108,11 +105,16 @@ def generate_html_report(activities, total_carbon,total_carbonList):
             padding-top: 70px;
             width: 500px;
             }}
+            strong{{
+                font-size: larger;
+            }}
             body {{
                 font-family: Aptos;
                 font-size: 17px;
                 border: 3px solid rgb(154, 145, 145);
-                padding: 100px;
+                padding: 30px;
+                background-color: rgb(244, 232, 212);
+                text-align: justify;
             }}
             h1 {{
                 color: #333;
@@ -162,71 +164,81 @@ def generate_html_report(activities, total_carbon,total_carbonList):
         <div class="icon">
         <div class="title">Carbon Footprint</div>
         </div>
-        </div>
+        
         <p> A Carbon Footprint is an impression determined worth or record that makes it conceivable to look at the aggregate sum of
         greenhouse gases that an activity, product, company or country adds to the atmosphere.
         <ul>
         <li>Carbon impressions are typically revealed in lots of outflows (CO2-same) per unit of correlation. Such units can be for instance tons CO2-eq each year,
         per kilogram of protein for consumption, per kilometer travelled, per piece of clothing and so forth. </li>
-        <li>An item's carbon impression incorporates the emanations for the whole life cycle. These run from the creation along the production network to its last utilization and removal.</li>
+        <li>An item's carbon impression incorporates the emanations for the whole life cycle. These run from the creation along the production network to its last 
+        utilization and removal.</li>
         </ul></p>
         </br>
         <h2>The overall carbon footprint for the year 2024, as of April 2024 is <strong>{total_carbon:.2f} kg CO2</strong></h2>
             </br>
+            <div>
             <h2>Energy Usage Imapct on Carbon Emission :</h2>
             <img src="Carbon_pie_chart1.png" alt="Matplotlib Plot">
+            </div>
             </br>
+            <div>
             <h2>Impact of Waste Generated on Carbon Emission:</h2>
             <img src="Carbon_pie_chart2.png" alt="Matplotlib Plot">
+            </div>
             </br>
+            <div>
             <h2>Impact of Business Travel on Carbon Emission:</h2>
             <img src="Carbon_pie_chart3.png" alt="Matplotlib Plot">
+            </div>
             </br>
-            
-         <h2> Factors that contribute to Carbon Emissions:</h2>   
-        </br>
-        <div class="card-container">
-        <div class="card" >
-        <div class="card-header">
-        <h3>Energy Usage</h3>
-        </div>
-        <div class="card-body">
-        <a href="#Energy">
-            <img  src="Images/energy.jpg" alt="Energy Used" class="card-img">
+          <div class="container">  
+            <h2> Factors that contribute to Carbon Emissions:</h2>   
+            </br>
+            <div class="card-container">
+            <div class="card" >
+            <div class="card-header">
+            <h3>Energy Usage</h3>
+            </div>
+            <div class="card-body">
+            <a href="#Energy">
+                <img  src="Images/energy.jpg" alt="Energy Used" class="card-img">
+                </a>
+            </div>
+            </div>
+            <div class="card" >
+            <div class="card-header">
+            <h3>Waste Generated</h3>
+            </div>
+            <div class="card-body">
+            <a href="#Waste">
+                <img  src="Images/waste.jpg" alt="Waste generated" class="card-img">
             </a>
-        </div>
-        </div>
-         <div class="card" >
-         <div class="card-header">
-        <h3>Waste Generated</h3>
-        </div>
-        <div class="card-body">
-        <a href="#Waste">
-            <img  src="Images/waste.jpg" alt="Waste generated" class="card-img">
-        </a>
-        </div>
-        </div>
-         <div class="card" >
-         <div class="card-header">
-        <h3>Buisness Travelled</h3>
-        </div>
-        <div class="card-body">
-        <a href="#Travel">
-            <img  src="Images/businessTravel.jpeg" alt="Business Travel" class="card-img">
-        </a>
-        </div>
-        </div>
-        </div>
+            </div>
+            </div>
+            <div class="card" >
+            <div class="card-header">
+            <h3>Buisness Travelled</h3>
+            </div>
+            <div class="card-body">
+            <a href="#Travel">
+                <img  src="Images/businessTravel.jpeg" alt="Business Travel" class="card-img">
+            </a>
+            </div>
+            </div>
+            </div>
         
-        <div class="wrap">
-        {info_content}
+            <div class="wrap">
+            {info_content}
+            </div>
         </div>
+        <div class="container">
         <h2>Consider taking actions to reduce your carbon footprint.</h2>
             <div class="wrap">
                 {sugg_content}
             </div>
             
-            
+       </div>
+       </div>    
     </body>
     </html>
     """
@@ -234,12 +246,15 @@ def generate_html_report(activities, total_carbon,total_carbonList):
     # Write the HTML content to a file
     with open("carbon_footprint_report.html", "w") as html_file:
         html_file.write(html_content)
-
+    
+    generatePDF.save_html_as_pdf('/Users/sherinhartman/Documents/GitHub/Carbon_FootprintTool/carbon_footprint_report.html','Reports/CarbonFootprint_Report')
+    
+    time.sleep(1)
+    new = 2 # open in a new tab, if possible
     #To open the created HTML file on the browser. (Also, we need to mention the absolute path for the url)
     url = "file:///Users/sherinhartman/Documents/GitHub/Carbon_FootprintTool/carbon_footprint_report.html" 
     webbrowser.open(url,new=new)
-    time.sleep(2)
-    generatePDF.save_html_as_pdf('/Users/sherinhartman/Documents/GitHub/Carbon_FootprintTool/carbon_footprint_report.html','CarbonFootprint_Report')
+    
     
     
 
@@ -250,7 +265,7 @@ def main():
     activities1=[]
     value=[]
     total_carbonList=[]
-    
+    #loop through the different category of activities 
     for activity in ['Energy Used', 'Waste Generated', 
                       'Business Travelled']:
         try:
@@ -279,21 +294,19 @@ def main():
         except ValueError:
                 print("Error", "Please enter valid numerical values for all activities.")
                 return
-    #value.extend([value1,value2,value3,value4,value5,value6,value7])
-    total_carbonList.extend([total_carbon1,total_carbon2,total_carbon3])
     
-    activities1.append(activities)
+    total_carbonList.extend([total_carbon1,total_carbon2,total_carbon3]) #Add all the calculated carbon totals to the toal_carbonList
+    
+    activities1.append(activities) #add all the values of the activities
+    
     # Calculate total carbon footprint
     total_carbon = sum(total_carbonList)
-        
         
         
     # Generate HTML report and display it
     generate_html_report(activities, total_carbon,total_carbonList)
     
-    # def generatePdf():
-    #     generatePDF.save_html_as_pdf('/Users/sherinhartman/Documents/GitHub/Carbon_FootprintTool/carbon_footprint_report.html','CarbonFootprint_Report.pdf')
-
+    
     
 if __name__ == "__main__":
     main()

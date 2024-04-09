@@ -2,27 +2,43 @@
     
     <h3>Energy Usage:</h3>
     <ul>
-        <li>Execute energy-proficient practices like utilizing LED lighting, energy-efficient appliances, and smart thermostats to reduce electricity consumption.</li>
-        <li>vest in renewable energy sources such as solar panels or wind turbines to generate clean and sustainable power onsite.</li>
-        <li>Conduct energy audits to identify areas of energy wastage and implement measures to improve energy efficiency, such as better insulation and sealing gaps in buildings.</li>
-        <li>Empower employee commitment and conduct change by advancing energy-saving practices, for example, switching out lights and hardware when not being used.</li>
-        <li>Collaborate with energy providers to secure environmentally friendly power declarations (RECs) or take part in environmentally friendly power energy buying projects to help the improvement of sustainable power projects.</li>
+        <li>Execute energy-proficient practices like utilizing LED lighting, energy-efficient appliances, and 
+        smart thermostats to reduce electricity consumption.</li>
+        <li>vest in renewable energy sources such as solar panels or wind turbines to generate clean and 
+        sustainable power onsite.</li>
+        <li>Conduct energy audits to identify areas of energy wastage and implement measures to improve energy 
+        efficiency, such as better insulation and sealing gaps in buildings.</li>
+        <li>Empower employee commitment and conduct change by advancing energy-saving practices, for example,
+         switching out lights and hardware when not being used.</li>
+        <li>Collaborate with energy providers to secure environmentally friendly power declarations (RECs) or
+         take part in environmentally friendly power energy buying projects to help the improvement of sustainable 
+         power projects.</li>
     </ul>
 
     <h3>Waste:</h3>
     <ul>
-        <li>Emphasize waste reduction and recycling initiatives to minimize the amount of waste generated, segregate recyclables, and divert waste from landfills.</li>
-        <li>Execute treating the soil programs for natural waste created in the work environment, for example, food scraps and yard squander.</li>
-        <li>Conduct waste audits to identify opportunities for waste reduction, reuse, and recycling, and set achievable waste reduction targets.</li>
-        <li>Empower the reception of reusable choices to single-use things like containers, cups, utensils, and sacks in the work environment.</li>
-        <li>Join forces with providers and sellers who share a promise to maintainability and natural stewardship, focusing on those with eco-accommodating practices and items.</li>
+        <li>Emphasize waste reduction and recycling initiatives to minimize the amount of waste generated, 
+        segregate recyclables, and divert waste from landfills.</li>
+        <li>Execute treating the soil programs for natural waste created in the work environment, for example, 
+        food scraps and yard squander.</li>
+        <li>Conduct waste audits to identify opportunities for waste reduction, reuse, and recycling, and set
+         achievable waste reduction targets.</li>
+        <li>Empower the reception of reusable choices to single-use things like containers, cups, utensils, and 
+        sacks in the work environment.</li>
+        <li>Join forces with providers and sellers who share a promise to maintainability and natural stewardship,
+         focusing on those with eco-accommodating practices and items.</li>
     </ul>
 
     <h3>Business Travel:</h3>
     <ul>
-        <li>Encourage alternatives to travel such as video conferencing, telecommuting, and virtual meetings to reduce the need for physical travel.</li>
-        <li>Create and carry out a movement strategy that focuses on supportable transportation choices like public travel, carpooling, cycling, and strolling.</li>
-        <li>Offer motivations or awards for picking sustainable transportation choices or decreasing travel-related emanations, for example, carbon offset programs or public transit subsidies.</li>
-        <li>Educate employees on the environmental impact of travel and provide resources and tools for making informed decisions about travel-related emissions.</li>
-        <li>Coordinate supportability standards into business travel choices, for example, choosing hotels and venues with green confirmations and limiting air travel whenever the situation allows.</li>
+        <li>Encourage alternatives to travel such as video conferencing, telecommuting, and virtual meetings to
+         reduce the need for physical travel.</li>
+        <li>Create and carry out a movement strategy that focuses on supportable transportation choices like 
+        public travel, carpooling, cycling, and strolling.</li>
+        <li>Offer motivations or awards for picking sustainable transportation choices or decreasing travel-related
+         emanations, for example, carbon offset programs or public transit subsidies.</li>
+        <li>Educate employees on the environmental impact of travel and provide resources and tools for making
+         informed decisions about travel-related emissions.</li>
+        <li>Coordinate supportability standards into business travel choices, for example, choosing hotels and
+         venues with green confirmations and limiting air travel whenever the situation allows.</li>
     </ul>

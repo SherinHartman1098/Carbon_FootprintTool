@@ -16,14 +16,16 @@ def save_html_as_pdf(html_file_path, output_pdf_path):
     'encoding': 'UTF-8',
     'no-outline': None,
     'enable-local-file-access': None,
-    'orientation': 'Portrait'   
+    'orientation': 'Portrait'
 }
-
+    
     try:
-       
        
         pdfkit.from_file(html_file_path, unique_filename, options=options)
         print("PDF is downloaded successfully.")
+        # Append JavaScript alert to HTML content
+        with open(html_file_path, 'a') as file:
+            file.write('<script>alert("PDF is downloaded successfully.");</script>')
     except Exception as e:
         print(f"Error occurred while downloading PDF: {e}")
 

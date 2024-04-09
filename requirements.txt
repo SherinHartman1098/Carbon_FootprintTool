@@ -1,0 +1,4 @@
+matplotlib==3.4.3
+pdfkit==0.6.1
+html2pdf==0.9.2
+pyppeteer==0.2.5

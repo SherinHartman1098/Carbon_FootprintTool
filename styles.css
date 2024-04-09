@@ -67,11 +67,5 @@ padding-left: 170px;
 .card:hover {
     transform: scale(1.1); /* Scale the card by 10% on hover */
   }
-.content p {
-    display: none;
-}
 
-.content p:target {
-    display: block;
-    background-color: yellow;
-}
+  
